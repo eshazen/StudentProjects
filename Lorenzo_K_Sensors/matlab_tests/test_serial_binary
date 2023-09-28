@@ -1,0 +1,21 @@
+%
+% test/demo serial binary data transfer from e.g. Arduino
+%
+
+arduino = serialport("/dev/ttyACM0", 9600)
+
+while true
+
+    tic
+
+    sentinel = read(arduino,1,"uint8")
+    if( sentinel != 23)
+        % make an error
+        error("Unexpected data from arduino")
+    end
+
+    p1 = read( arduino, 3, "float")
+    p2 = read( arduino, 3, "float")
+
+    toc
+end
