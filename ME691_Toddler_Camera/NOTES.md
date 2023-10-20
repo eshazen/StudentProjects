@@ -2,7 +2,7 @@
 
 See [Electrical Function](Electrical Function-1.pdf) document for some details.
 
-Notes-
+## Notes
 
 * The biggest challenges are mechanics and software.
 
@@ -12,15 +12,15 @@ Notes-
 display, controls, and camera which will need protection.
 
 * I highly recommend wireless charging as a USB connector is pretty
-  easy to damage or contaminate with dirc
+  easy to damage or contaminate with dirt.  Check out the "Qi"
+  standard for wireless charging.
   
 * What about a flash / light for low-light conditions?
 
-Technical issues / ideas
+## Technical issues / ideas
 
 * What interface?  R-Pi uses MIPI.  This isn't easy to
-  decode/convert.  Best best is an R-Pi, which isn't out of the
-  question.
+  decode/convert, unless you use a RPi.
   
 * A raspberry pi zero might be a good MCU.  Maybe a P-zero W or a
   compute module 4?
@@ -29,5 +29,9 @@ Technical issues / ideas
 
 * What storage?  Built-in or uSD card or proprietary?
 
-* WiFi or bluetooth for image download?
+* WiFi or bluetooth for image download or something else?
 
+* Battery?  Probably not LiPo due to safety.  Ideally it is removable,
+  or can even run on disposables (e.g. AA) as an option.
+  
+  
