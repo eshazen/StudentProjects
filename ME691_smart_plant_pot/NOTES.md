@@ -28,3 +28,17 @@ electrical components:
 * Indicator lights for user input
 
 The second design will not feature a pump and solenoid valve. 
+
+## Meeting 11/6/23
+
+Met with Serge, Dancho, Jasmine.  They have two possible designs.  One
+is the "plant hospital" which is a stand-alone thing which sits next
+to a pot with sensors plugged in and inserted in the soil.  It would
+monitor moisture and NPK and control a watering pump from a reservoir
+and possibly lighting.
+
+There is an alternative design which would be more passive, and they
+didn't describe it in detail.
+
+Talked a bit about PCB design issues and sent a link to my EDF website
+with talks, etc.
